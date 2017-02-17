@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('chatWebApp')
+angular.module('GoAng')
     .controller('ChatCtrl', ['$scope', 'socket', function ($scope, socket) {
         $scope.messages = [];
         $scope.newMessage = '';

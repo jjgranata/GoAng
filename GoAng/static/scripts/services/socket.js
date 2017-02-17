@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('chatWebApp')
+angular.module('GoAng')
     .factory('socket', ['socketFactory', function (socketFactory) {
         var socket = socketFactory();
         socket.forward('error');

@@ -1,3 +1,3 @@
 'use strict';
 
-angular.module('chatWebApp', ['ngAnimate', 'btford.socket-io', 'angularMoment', 'luegg.directives']);
+angular.module('GoAng', ['ngAnimate', 'btford.socket-io', 'angularMoment', 'luegg.directives']);
