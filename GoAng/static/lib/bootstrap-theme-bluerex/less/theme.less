@@ -1,0 +1,75 @@
+/*!
+ * Your Theme Name v0.1.0
+ *
+ * Copyright 2013 Your Name
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * This theme was built using the Themestrap Bootstrap Theme Kit.
+ * https://github.com/divshot/themestrap
+ */
+
+@import "bootstrap.less";
+@import "variables.less";
+@import "elements.less";
+
+@border-radius-s: 2px;
+@border-radius-m: 5px;
+@border-radius-l: 10px;
+
+// Add CSS Customizations to your theme here.
+.panel {
+	.panel-heading {
+		.heading-border(@brand-primary);
+	}
+	&.panel-success {
+		div.panel-heading {
+			.heading-border(@brand-success);
+		}
+	}
+	&.panel-danger {
+		div.panel-heading {
+			.heading-border(@brand-danger);
+		}
+	}
+	&.panel-warning {
+		div.panel-heading {
+			.heading-border(@brand-warning);
+		}
+	}
+	&.panel-info {
+		div.panel-heading {
+			.heading-border(@brand-info);
+		}
+	}
+	.drop-shadow(4px, 3px, 5px, 0.9);
+}
+
+.pagination > li > a {
+	border: 1px solid @light-primary;
+	border-top: none;
+	border-bottom: none;
+	background-color: lighten(@light-primary, 7%);
+	
+}
+.pager li > a {
+	.rounded(5px);
+	border: 1px solid @light-primary;
+}
+
+.panel-footer {
+	border-top: 2px solid @gray-light;
+}
+
+.panel-heading {
+	font-size: 16px;
+}
+
+.alert {
+	border-width: 5px !important;
+	background-color: @panel-bg !important;
+}
+
+.heading-border(@color) {
+	border-bottom: 2px solid darken(@color, 20%);
+}

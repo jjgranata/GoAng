@@ -1,0 +1,30 @@
+{
+  "name": "bootstrap-theme-bluerex",
+  "author": "Nathan Gallagher",
+  "main": "dist/bootstrap.css",
+  "themestrap": {
+    "name": "Bluerex",
+    "repo": "https://github.com/ngallagher87/bluerex-theme"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "3.0.0"
+  },
+  "homepage": "https://github.com/ngallagher87/bluerex-theme",
+  "_release": "ea6416d666",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "ea6416d66673ffec1da922ee99c3638282c56c92"
+  },
+  "_source": "https://github.com/ngallagher87/bluerex-theme.git",
+  "_target": "*",
+  "_originalSource": "bootstrap-theme-bluerex",
+  "_direct": true
+}

@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap-theme-bluerex",
+  "version": "0.0.1",
+  "author": "Nathan Gallagher",
+  "main": "dist/bootstrap.css",
+  "themestrap": {
+    "name": "Bluerex",
+    "repo": "https://github.com/ngallagher87/bluerex-theme"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap":"3.0.0"
+  }
+}
+
+        
+        
+        
